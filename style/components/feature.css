@@ -1,0 +1,89 @@
+.feature-main{
+    margin: 50px;
+
+}
+
+.feature-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature-header h2{
+    font-size: 30px;
+    color: #0a472e;
+    position: relative;
+    margin-left: 30px;
+}
+
+.feature-header h2::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #bac34e;
+    border-radius: 100px;
+    left: -30px;
+    top: 5px;
+}
+
+.seller-header h2::before{
+    border: 2px solid #eb3069;
+}
+
+.feature-link a{
+    color: #bac34e;
+}
+
+
+.feature{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item{
+    width: calc(25% - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+    border: 1px solid #e1e1e1;
+}
+
+.feature-item>img{
+    width: 100%;
+}
+
+.feature-home{
+    color: #bac34e;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.feature-name{
+    color: #000;
+    margin: 20px 0;
+}
+
+.feature-link a{
+    color: #000;
+    margin-top: 20px;
+}
+
+.feature-link{
+    border: none;
+}
+
+.feature-line{
+    width: 80px;
+    height: 2px;
+    background-color: #bac34e;
+    margin-top: 15px;
+    transition: .4s;
+}
+
+.feature-item:hover .feature-line{
+    width: 150px;
+}

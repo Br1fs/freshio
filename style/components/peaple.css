@@ -1,0 +1,50 @@
+.peaple{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.peaple-img, .peaple-text{
+    width: calc(50% - 30px);
+}
+
+.peaple-img>img{
+    width: 100%;
+}
+
+.peaple-text{
+    padding: 0 5%;
+}
+
+.peaple-text h2{
+    font-size: 30px;
+    color: #0a472e;
+    margin-bottom: 20px;
+}
+
+.peaple-text p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.peaple-text1 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #0a472e;
+}
+
+.peaple-text1{
+    margin: 0 30px;
+}
+
+.peaple-text1 h4{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.peaple-text1 p{
+    color: #aaa;
+}

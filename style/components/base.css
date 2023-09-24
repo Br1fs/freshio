@@ -1,0 +1,13 @@
+body{
+    background-image: url("../../img/back_body.jpg");
+    background-color: #fdf4ea;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-position: left right;
+    padding: 0 5%;
+}
+
+a{
+    text-decoration: none;
+}

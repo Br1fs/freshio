@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Dancing";
+    src: url(../../Fonts/DancingScript-Bold.ttf);
+}
+
+.main{
+    margin: 35px;
+    display: flex;
+    justify-content: space-between;
+    height: 35vw;
+    position: relative;
+}
+
+.main-item-top{
+    background-image: url("/img/main2.webp");
+    height: calc(50% - 15px);
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 10%; */
+}
+
+.main-item-bottom{
+    background-image: url("/img/main3.webp");
+    height: calc(50% - 15px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main-item-bottom h4{
+    font-size: 24px;
+    font-family: "Dancing";
+    color: #fff;
+}
+
+.main-item-bottom h2{
+    font-size: 40px;
+    color: #f4ed23;
+    margin: 15px 0;
+}
+
+.main-item-bottom p{
+    color: #fff;
+}
+
+.shop-link img{
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    padding-left: 5px;
+    transition: .4s;
+}
+
+.shop-link:hover img{
+    margin-left: 10px;
+}
+
+.main_menu{
+    height: 100%;
+    width: calc(66% - 15px);
+    /* position: relative; */
+    /* height: 35vw; */
+}
+
+.main-item{
+    width: calc(33% - 15px);
+    height: 100%;
+}
+
+.main_menu_left{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.main_menu_left > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.text_left{
+    padding: 100px;
+}
+
+.main_menu_left h4{
+    font-family: "Dancing";
+    color: #bac34e;
+    font-size: 24px;
+
+}
+
+.main_menu_left h1{
+    color: #0a472e;
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+.shop-link{
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    width: fit-content;
+    transition: .4s;
+}
+
+.shop-link:hover{
+    border-color: #bac34e;
+}
+
+.shop-link a{
+    display: flex;
+    align-items: center;
+    color: #000;
+    transition: .4s;
+}
+
+.shop-link a:hover{
+    color: #bac34e;
+}
+
+.main-item-top h3{
+    color: #0a472e;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+/* .main-item-top h3{
+    margin: 50px;
+} */
+
+/* .main-item-top a{
+    margin-left: 50px;
+} */
+
+.main-item-top a{
+    margin-top: 170px;
+}
+
+
+.shop-button{
+    background-color: #bac34e;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.shop-button img{
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    filter: invert(1);
+    transition: .4s;
+}
+
+.shop-button:hover{
+    background-color: #fff;
+
+}
+
+.shop-button:hover a{
+    color: #bac34e;
+}
+
+.shop-button:hover img{
+    filter: invert(1);
+}
+
+.shop-button a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+}
